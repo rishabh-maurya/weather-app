@@ -1,0 +1,30 @@
+.weatherInformation__container {
+    width: 20rem;
+    height: 400px;
+    box-sizing: border-box;
+    padding: 10px 5px;
+    border-radius: 5px;
+    background-color: powderblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.621); 
+}
+
+
+.weatherInformation__container input {
+    width: 90%;
+    padding: 10px 10px;
+    border-radius: 50px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.weatherInformation__showTemp {
+    text-align: center;
+}
+
+h1 {
+    text-transform: capitalize;
+}
